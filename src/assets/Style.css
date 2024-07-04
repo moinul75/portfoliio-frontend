@@ -1,0 +1,292 @@
+.hearder_secton {
+  width: 100%;
+  background-color: white;
+}
+
+.profile_img_box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #dae3e7;
+  background-color: transparent;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile_img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.profile_name {
+  color: var(--heading-color);
+  font-size: 40px;
+  font-weight: 700;
+  font-family: var(--font-family);
+}
+
+.profile_qualification {
+  color: #b0b7bf;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--font-family);
+}
+
+.socail_icon_box {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b0b7bf;
+  transition: all 0.4s ease-in-out;
+
+  &:hover {
+    background-color: #8e9092;
+  }
+}
+
+.socail_icon {
+  color: white;
+  font-size: 20px;
+}
+
+.direct_massage_email {
+  color: white;
+  font-size: 14px;
+  font-family: var(--font-family);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #54ba4e;
+  border-radius: 5px;
+  transition: all 0.4s ease-in-out;
+
+  &:hover {
+    background-color: #30df27;
+  }
+}
+
+.direct_massage_whatasapp {
+  color: white;
+  font-size: 14px;
+  font-family: var(--font-family);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #32393d;
+  border-radius: 5px;
+}
+
+.direct_massage_icon {
+  color: white;
+  font-size: 18px;
+}
+
+/* ================== ABOUT ME SECTION =============== */
+.main_section {
+  margin-top: 60px;
+}
+
+.about_me,
+.my_info,
+.skills,
+.latest_project,
+.other_project,
+.work_experience,
+.testimonials,
+.education,
+.languages {
+  padding: 30px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.section_heading {
+  color: var(--heading-color);
+  font-size: 25px;
+  font-weight: 700;
+  font-family: var(--font-family);
+  padding-bottom: 15px;
+}
+
+.about_skills {
+  color: var(--heading-color);
+  font-family: var(--font-family);
+  margin: 5px;
+}
+
+/* ================== MY INFO SECTION =============== */
+.my_info_details {
+  color: var(--heading-color);
+  font-family: var(--font-family);
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ================== PROJECT SECTION =============== */
+.project_card_title {
+  font-size: 20px;
+  color: rgb(119, 132, 146);
+  font-family: var(--font-family);
+  font-weight: 700;
+  padding-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: rgb(85, 84, 84);
+  }
+}
+
+.project_card_text {
+  font-size: 15px;
+  color: rgb(64, 68, 71);
+  font-family: var(--font-family);
+  font-weight: 500;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.pagination_btn {
+  color: white;
+  background-color: #54ba4e;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ================== OTHER PROJECT SECTION =============== */
+.other_project_title {
+  color: rgb(119, 132, 146);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.other_project_text {
+  font-family: var(--font-family);
+  margin-bottom: 0px;
+}
+
+.more_on_btn {
+  color: white;
+  background-color: #54ba4e;
+  padding: 5px 10px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* ================== WORK EXPERIENCE SECTION =============== */
+.work_experience_title {
+  color: rgb(119, 132, 146);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.work_experience_text {
+  color: rgb(119, 132, 146);
+  font-family: var(--font-family);
+  margin-bottom: 0px;
+}
+
+/* ================== SKILLS SECTION =============== */
+.skill_name {
+  color: rgb(119, 132, 146);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+/* ================== TESTIMONIALS SECTION =============== */
+.testimonials_card {
+  border-left: 5px solid #6097e9;
+  padding-left: 15px;
+}
+
+.testimonials_card_text {
+  color: rgb(119, 132, 146);
+  font-family: var(--font-family);
+}
+
+.testimonials_quote_icon {
+  color: #6097e9;
+  margin-right: 10px;
+}
+
+.testimonials_name {
+  font-weight: 600;
+  color: rgb(119, 132, 146);
+  font-family: var(--font-family);
+  display: block;
+}
+
+.testimonials_position {
+  font-size: 14px;
+  font-family: var(--font-family);
+  display: block;
+}
+
+/* ================== EDUCATION SECTION =============== */
+.education_title {
+  color: rgb(119, 132, 146);
+  font-family: var(--font-family);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 5px;
+}
+
+.education_text {
+  color: rgb(119, 132, 146);
+  font-family: var(--font-family);
+  font-size: 14px;
+}
+
+/* ================== LANGUAGES SECTION =============== */
+.language_text {
+  color: rgb(119, 132, 146);
+  font-family: var(--font-family);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.language_star {
+  color: #6097e9;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+/* ================== FOOTER SECTION =============== */
+.footer_section {
+  width: 100%;
+  background-color: transparent;
+}
+
+.footer_text {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(119, 132, 146);
+  font-family: var(--font-family);
+  margin: 0;
+}
